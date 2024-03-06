@@ -27,6 +27,7 @@ h1 {
     font-weight: normal;
     color: #7D7987;
     margin-bottom: 32px;
+    
 }
 
 h1 span {
@@ -51,11 +52,38 @@ strong, p {
     position: fixed;
     right: 12px;
     bottom: 12px;
+    transition: transform 0.3s ease-in-out;
+    
 }
+.logo:hover {
+    transform: scale(1.1);
+  }
+
+.logo-instagram {
+    position: fixed;
+    right: 12px;
+    bottom: 90px;
+    width: 69px;
+    transition: transform 0.3s ease-in-out;
+}
+.logo-instagram:hover {
+    transform: scale(1.1);
+  }
 
 #footer a + a{
     margin-left: 28px;
+    
+      
 }
+.infinity:hover  {
+    transition: color 1s;
+    color: rgb(158, 158, 158);
+}
+
+#footer a:hover {
+    transition: color 1s;
+    color: rgb(148, 147, 147);
+  }
 
 .line {
     width: 592px;
